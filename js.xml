@@ -42,7 +42,7 @@
         <!--<property name="target.file" value="${target.dir}/${basename}-${version}.min.js"/>-->
         <!--<property name="minified.file" value="${target.dir}/${basename}-tmp.min.js"/>-->
 
-        <apply executable="/usr/bin/java" parallel="false">
+        <apply executable="C:\Program Files\Java\jdk1.7.0_51\bin\java.exe" parallel="false">
 			<fileset file="${target.file}"/>
             <arg line="-jar"/>
             <arg path="${yui.path}"/>
